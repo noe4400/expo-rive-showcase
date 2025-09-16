@@ -56,6 +56,8 @@ Created in Rive Editor inspired by the Figma community design:
 [Free Editable Starry Night Prototype](https://www.figma.com/community/file/1221339768013276092/free-editable-starry-night-prototype)
 by [Shubhangi Design](https://www.figma.com/@shubhangidesign).
 
+![Campfire](assets/gifs/campfire.gif)
+
 ## 📌 Notes:
 
 - This is a showcase project for learning and experimenting with Rive + Expo.
