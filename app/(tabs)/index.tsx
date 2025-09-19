@@ -1,18 +1,19 @@
-import { useRouter } from "expo-router";
-import { FlatList, Text, TouchableOpacity } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { useRouter } from 'expo-router';
+import { FlatList, Text, TouchableOpacity } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const showcases = [
-  { id: "1", title: "Starry Night Camping", route: "/explore" },
-
+  { id: '1', title: 'Starry Night Camping', route: '/explore' },
+  { id: '2', title: 'Emotion Slider', route: '/slider' },
 ];
 
 export default function Home() {
   const router = useRouter();
 
   return (
-   <SafeAreaView style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-
+    <SafeAreaView
+      style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
+    >
       <FlatList
         data={showcases}
         keyExtractor={(item) => item.id}
@@ -21,7 +22,7 @@ export default function Home() {
             onPress={() => router.push(item.route)}
             style={{
               padding: 20,
-              backgroundColor: "#eee",
+              backgroundColor: '#eee',
               borderRadius: 10,
               marginBottom: 10,
             }}
@@ -29,7 +30,6 @@ export default function Home() {
             <Text style={{ fontSize: 18 }}>{item.title}</Text>
           </TouchableOpacity>
         )}
-       
       />
     </SafeAreaView>
   );

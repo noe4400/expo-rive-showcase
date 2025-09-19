@@ -58,6 +58,14 @@ by [Shubhangi Design](https://www.figma.com/@shubhangidesign).
 
 ![Campfire](assets/gifs/campfire.gif)
 
+### 🎭 Emotion Slider
+
+Created in Rive Editor inspired by the Figma community design:
+[Emotion Slider Animation](https://www.figma.com/community/file/1352626408204843736/emotion-slider-animation-rate-us-mobile-solution-tutorial-free-lottie-animations)
+by [Di Smolskii](https://www.figma.com/@di_smolskii).
+
+![Emotion Slider](assets/gifs/emotion-slider.gif)
+
 ## 📌 Notes:
 
 - This is a showcase project for learning and experimenting with Rive + Expo.
